@@ -21,7 +21,7 @@ public:
         //auto自动推断类型，相当于chrono::system_clock::time_point,依次是命名空间，顶层类，嵌套类型
         //::是作用域解析运算符, .是成员访问运算符
 ```
-[::与.的功能对比](symbol_meanings.md)
+[::与.的功能对比](https://github.com/xrainy677/my_first_markdown_class/blob/main/symbol_meanings.md)
 ```cpp
         auto duration_since_epoch=now.time_since_epoch();  //时间长度的auto对应seconds,milliseconds......
         long long timestamp=chrono::duration_cast<chrono::milliseconds>(duration_since_epoch).count();
